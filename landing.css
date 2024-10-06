@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+    height: 3.5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.left {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: left;
+}
+
+.sign {
+    padding: 0.3rem 0rem 1rem 5rem;
+    height: 5vh;
+}
+
+.tag {
+    display: flex;
+}
+
+.blue {
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(86, 18, 203, 0.697);
+    padding: 0rem 0.8rem 2rem 0.5rem;
+}
+
+.pink {
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(203, 18, 197, 0.697);
+    padding: 0rem 0rem 2rem 0rem;
+
+}
+
+.login {
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+}
+
+.log {
+    font-weight: 100;
+    width: 6rem;
+    border-color: #333;
+    background-color: transparent;
+    border-style: solid;
+}
+
+.site {
+    width: 16rem;
+    border-style: solid;
+    border-color: rgba(16, 142, 192, 0.925);
+    background-color: rgba(16, 142, 192, 0.925);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.first {
+    display: table-column;
+    justify-content: left;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 11rem 2rem 0rem 10rem;
+    font-size: 4rem;
+    color: rgb(157, 59, 206);
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 0rem 3rem 10rem;
+    font-size: 3.6rem;
+    color: rgb(157, 59, 206);
+}
+
+#second {
+    margin: 0.5rem 0rem 3rem 10rem;
+    padding: 1rem;
+    width: 19rem;
+}
+
+.content {
+    background-image: url(https://t3.ftcdn.net/jpg/06/32/35/36/360_F_632353694_2mnIGVJYLNpJbdsMRwB4P0iAck6fXm6S.jpg);
+    background-size: cover;
+    backdrop-filter: brightness(1px);
+    margin: 0rem 4rem 0rem 4rem;
+    display: flex;
+    background-position: center 50%;
+    border-radius: 2%;
+    border-color: black;
+}
+
+.harsh {
+    background-color: rgba(236, 108, 213, 0.733);
+    background-image: linear-gradient(360deg, pink, rgb(157, 59, 206));
+    height: 4rem;
+}
+
+.bgc {
+    background-color: rgba(236, 108, 213, 0.733);
+    background-image: linear-gradient(181deg, pink, rgb(157, 59, 206));
+}
+
+.looking {
+    background-color: whitesmoke;
+    border-style: solid;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.email {
+    width: 92.9%;
+    padding: 10px;
+    margin-top: 0.5rem;
+}
+
+form {
+    text-align: center;
+    margin: 4rem 3rem 4rem 8rem;
+    display: table-column;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 20.9rem;
+    background-color: #f9f9f9;
+    border-color: rgb(138, 75, 75);
+    border-width: 2rem;
+}
+
+h3 {
+    text-align: left;
+    font-size: 2.4rem;
+    font-family: arial narrow;
+    color: blueviolet;
+}
+
+.get {
+    color: white;
+    background-color: rgba(203, 18, 197, 0.697);
+    width: 8.5rem;
+    padding: 0.8rem;
+    margin-top: 2rem;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border-style: ;
+    border-color: transparent;
+}
+
+p {
+    margin: -0.5rem 1.7rem -1.5rem -17rem;
+}
+
+.slider {
+    padding: 1rem;
+    margin: 1.6rem 1.4rem -0.3rem -4rem;
+}
+
+.spa {
+    margin: 0.7rem 1rem -2rem -13.9rem;
+    font-size: 1rem;
+    font-family: segoe ui;
+    font-weight: initial;
+}
+
+.down {
+    display: flex;
+    justify-content: space-around;
+    background-color: chocolate;
+    color: white;
+    height: 25rem;
+}
+
+.one,
+.two,
+.three {
+    display: table-column;
+    margin: 5rem 0rem 5rem 22rem;
+}
+
+.free {
+    margin: 5rem 0rem 1rem -13rem;
+    font-family: bahnschrift;
+    font-size: 2rem;
+}
+
+.ree {
+    margin: 5rem 1rem 1rem -15rem;
+    font-family: bahnschrift;
+    font-size: 2rem;
+}
+
+.fre {
+    font-family: bahnschrift;
+    font-size: 2rem;
+    margin: 3rem 1rem 1rem -15rem;
+}
+
+.para {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h {
+    margin: 4rem 2rem -4rem -11rem;
+}
+
+.p {
+
+    margin: 3rem 0rem -5rem -14rem;
+}
+
+.t {
+    margin: 3rem 0rem -2rem -11rem;
+}
+
+.pic1 {
+    border-radius: 13%;
+    height: 4rem;
+    width: 6rem;
+}
+
+.pic2 {
+    border-radius: 50%;
+    height: 5rem;
+}
+
+.pic3 {
+    border-radius: 10%;
+    height: 5rem;
+}
+
+.last {
+    height: 3rem;
+    background-color: darkmagenta;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+}
+
+@media (min-width: 737px) and (max-width: 1155px) {
+    .main {
+        height: auto;
+    }
+
+    .left {
+        margin-top: 0;
+
+    }
+
+    .sign {
+        padding: 2rem 0rem 0rem 3rem;
+    }
+
+    .tag {
+        padding: 2rem 0rem 0rem 0rem;
+        align-items: center;
+    }
+
+    .login {
+        margin-top: 1rem;
+        margin-right: 76px;
+    }
+
+    .log,
+    .site {
+        margin: 2rem -4rem 2rem 3rem;
+    }
+
+    .first {
+        padding: 2rem 1rem;
+    }
+
+    h4 {
+        padding: 4rem 1rem 0;
+        font-size: 2rem;
+    }
+
+    h2 {
+        padding: 1rem 1rem 2rem;
+        font-size: 1.8rem;
+    }
+
+    #second {
+        margin: 0.5rem 0 2rem;
+        width: 100%;
+    }
+
+    .content {
+        margin: 0rem 2rem 0rem 2rem;
+    }
+
+    form {
+        margin: 4rem 1rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .down {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .one,
+    .two,
+    .three {
+        margin: 2rem 16rem;
+        display: grid;
+    }
+
+    .free,
+    .ree,
+    .fre {
+        margin: 2rem 0 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    .para {
+        text-align: center;
+    }
+
+    .one {
+        margin: 2rem 0;
+    }
+
+    .free {
+        margin: 2rem 1rem 1rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .para {
+        font-size: 1rem;
+        margin: 1rem 1rem 1rem -3rem;
+    }
+
+    .h {
+        margin: 2rem 0rem -1rem 3rem;
+    }
+
+    .p {
+        margin: -2rem 0rem -2rem 1rem;
+    }
+
+    .t {
+        margin: -2rem 1rem -1rem 2rem;
+    }
+}
+
+@media (min-width: 697px) and (max-width: 736px) {
+    .free {
+        font-size: 1.2rem;
+        margin: 4.5rem 0rem -1rem -13rem;
+    }
+
+    .ree {
+        margin: 0rem 0rem -1rem -14rem;
+        font-size: 1.2rem;
+
+    }
+
+    .fre {
+        font-size: 1.2rem;
+        margin: 2rem 0rem -1rem -12.5rem;
+    }
+
+    .content {
+        display: grid;
+    }
+
+    .down {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login {
+        margin: 0.5rem 1rem 0rem 0rem;
+    }
+
+    .left {
+        margin: 0.5rem -4rem 0rem -1rem;
+    }
+
+
+    .one {
+        margin: 2rem 1rem 0rem 15rem;
+    }
+
+    .two {
+        margin: 3rem 4rem 0rem 9rem;
+    }
+
+    .three {
+        margin: 2rem -10rem 0rem 5rem;
+    }
+
+    .para {
+        margin: 1rem 9rem 0rem -14rem;
+        width: 130%;
+    }
+
+    .h {
+        margin: 5rem 0rem -4rem -13rem;
+    }
+
+    .p {
+        margin: 3.5rem 0rem 0rem -15rem
+    }
+
+    .t {
+        margin: 4.5rem 0rem -2rem -11.5rem;
+    }
+}
+
+@media(max-width:697px) {
+    .content {
+        display: grid;
+        margin: -6rem 1rem 0rem 1rem;
+    }
+
+    .down {
+        height: auto;
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .main {
+        height: auto;
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .login {
+        margin: -0.5rem 1rem 1rem -3rem;
+        display: flex;
+    }
+
+    .left {
+        margin: 0.5rem -4rem 0rem -1rem;
+    }
+
+    .one,
+    .two,
+    .three {
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .one {
+        margin: 0rem 1rem 0rem 21rem;
+    }
+
+    .h {
+        margin: 5rem 0rem -4rem -11rem;
+    }
+
+    .p {
+        margin: -2.5rem 0rem 0rem -14rem;
+    }
+
+    .t {
+        margin: -6.5rem 0rem -2rem -9.5rem;
+    }
+
+    .free {
+        font-size: 1.2rem;
+        margin: 4.5rem 0rem 1rem -11rem;
+    }
+
+    .ree {
+        margin: 0rem 0rem 1rem -13rem;
+        ;
+        font-size: 1.2rem;
+
+    }
+
+    .fre {
+        font-size: 1.2rem;
+        margin: -1rem 0rem 1rem -10.5rem;
+    }
+}
